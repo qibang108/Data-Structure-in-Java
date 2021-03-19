@@ -1,31 +1,16 @@
-package Array;
-import java.util.Arrays;
+package LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        // general Arrays in java, same as vector in C++
-        int[] nums = new int[5];    //initialize with 0
-        for (int i = 0; i <nums.length; i++) {
-            nums[i] = i * 2;
-        }
-        System.out.println(Arrays.toString(nums));
-
-        //my class Array test
-        Array mynums = new Array(4);
-        mynums.push_back(1);
-        mynums.push_back(2);
-        mynums.push_back(3);
-        mynums.push_back(4);
-        mynums.push_back(5);
-        mynums.print();
+        var list = new LinkedList();
+        list.addLast(10);
+        list.addLast(20);
+        list.addLast(30);
+        list.print();
         System.out.print("\n");
-        mynums.remove(0);
-        mynums.print();
-        mynums.insert(6,1);
+        list.addFirst(40);
+        list.print();
         System.out.print("\n");
-        mynums.print();
-        System.out.print("\n");
-        System.out.println(mynums.search(3));
-        System.out.println(mynums.search(30));
+        System.out.println(list.indexOf(20));
     }
 }
