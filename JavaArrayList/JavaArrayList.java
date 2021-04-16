@@ -2,6 +2,12 @@ package LinkedList;
 
 import java.util.ArrayList;
 
+/**
+* Java ArrayList Test
+* @author binqibang
+* @created 2021/03/25
+*/
+
 public class JavaArrayList {
     public static void main(String[] args) {
         java.util.ArrayList<Integer> list = new java.util.ArrayList<>();
