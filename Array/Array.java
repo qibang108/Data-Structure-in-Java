@@ -1,5 +1,11 @@
 package Array;
 
+/**
+* My Array data structure
+* @author binqibang
+* @created 2021/03/22
+*/
+
 public class Array {
     private int[] elements;
     private int count;
