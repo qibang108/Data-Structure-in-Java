@@ -1,5 +1,11 @@
 package LinkedList;
 
+/**
+* LinkedList Class test 
+* @author binqibang
+* @created 2021/03/25
+*/
+
 public class Main {
     public static void main(String[] args) {
         // integer list
