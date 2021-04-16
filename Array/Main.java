@@ -1,9 +1,15 @@
 package Array;
 import java.util.Arrays;
 
+/**
+* Array Class test
+* @author binqibang
+* @created 2021/03/22
+*/
+
 public class Main {
     public static void main(String[] args) {
-        // general Arrays in java, same as vector in C++
+        // general Arrays in java, same as C++
         int[] nums = new int[5];    //initialize with 0
         for (int i = 0; i <nums.length; i++) {
             nums[i] = i * 2;
