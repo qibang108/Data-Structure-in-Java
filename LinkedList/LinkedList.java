@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 
 /**
  * LinkedList Implement
- * @author: QI
+ * @author: binqibang
  * @created: 2021/03/25
  */
 
@@ -14,11 +14,11 @@ public class LinkedList<Elem> {
     private class Node{
         private Elem value;
         private Node next;
-        //constructor_1
+        //constructor1
         public Node(Elem value){
             this.value = value;
         }
-        //constructor_2
+        //constructor2
         public Node(){}
 
     }
@@ -49,7 +49,7 @@ public class LinkedList<Elem> {
     }
 
     public void addLast(Elem item){
-        //java also has a Node class
+        //keyword 'var' can automatically recognize the type of your variable
         var temp = new Node(item);
         //if the LinkedList is null
         if(isEmpty()){
